@@ -1,0 +1,104 @@
+local function loader(Api)
+    Api:CreateCharacter("changeyour_mod_name_here1", "naysayer")
+    local character_data = Api:GetCharacterData("changeyour_mod_name_here1")
+    if character_data == nil then
+        return
+    end
+    character_data.icon = DCEI.Texture("character_reskin1")
+    character_data.icon_low_resolution = DCEI.Texture("character_reskin1")
+    character_data.icon_high_resolution = DCEI.Texture("character_reskin_high_res1")
+    character_data.icon_high_resolution_size = { width = 700, height = 700 }
+    character_data.unit = DCEI.Unit("COMBAT Unit Mod Reskin Character1")
+
+    Api:CreateCharacter("changeyour_mod_name_here2", "sakiko")
+    local character_data = Api:GetCharacterData("changeyour_mod_name_here2")
+    if character_data == nil then
+        return
+    end
+    character_data.icon = DCEI.Texture("character_reskin2")
+    character_data.icon_low_resolution = DCEI.Texture("character_reskin2")
+    character_data.icon_high_resolution = DCEI.Texture("character_reskin_high_res2")
+    character_data.icon_high_resolution_size = { width = 700, height = 700 }
+    character_data.unit = DCEI.Unit("COMBAT Unit Mod Reskin Character2")
+    
+    Api:CreateCharacter("changeyour_mod_name_here3", "robot")
+    local character_data = Api:GetCharacterData("changeyour_mod_name_here3")
+    if character_data == nil then
+        return
+    end
+    character_data.icon = DCEI.Texture("character_reskin3")
+    character_data.icon_low_resolution = DCEI.Texture("character_reskin3")
+    character_data.icon_high_resolution = DCEI.Texture("character_reskin_high_res3")
+    character_data.icon_high_resolution_size = { width = 700, height = 700 }
+    character_data.unit = DCEI.Unit("COMBAT Unit Mod Reskin Character3")
+
+    Api:CreateCharacter("changeyour_mod_name_here4", "priest")
+    local character_data = Api:GetCharacterData("changeyour_mod_name_here4")
+    if character_data == nil then
+        return
+    end
+    character_data.icon = DCEI.Texture("character_reskin4")
+    character_data.icon_low_resolution = DCEI.Texture("character_reskin4")
+    character_data.icon_high_resolution = DCEI.Texture("character_reskin_high_res4")
+    character_data.icon_high_resolution_size = { width = 700, height = 700 }
+    character_data.unit = DCEI.Unit("COMBAT Unit Mod Reskin Character4")
+
+    Api:CreateCharacter("changeyour_mod_name_here5", "keg")
+    local character_data = Api:GetCharacterData("changeyour_mod_name_here5")
+    if character_data == nil then
+        return
+    end
+    character_data.icon = DCEI.Texture("character_reskin5")
+    character_data.icon_low_resolution = DCEI.Texture("character_reskin5")
+    character_data.icon_high_resolution = DCEI.Texture("character_reskin_high_res5")
+    character_data.icon_high_resolution_size = { width = 700, height = 700 }
+    character_data.unit = DCEI.Unit("COMBAT Unit Mod Reskin Character5")
+    
+    Api:CreateCharacter("changeyour_mod_name_here6", "hachimi")
+    local character_data = Api:GetCharacterData("changeyour_mod_name_here6")
+    if character_data == nil then
+        return
+    end
+    character_data.icon = DCEI.Texture("character_reskin6")
+    character_data.icon_low_resolution = DCEI.Texture("character_reskin6")
+    character_data.icon_high_resolution = DCEI.Texture("character_reskin_high_res6")
+    character_data.icon_high_resolution_size = { width = 700, height = 700 }
+    character_data.unit = DCEI.Unit("COMBAT Unit Mod Reskin Character6")
+
+    Api:CreateCharacter("changeyour_mod_name_here7", "jonouchi")
+    local character_data = Api:GetCharacterData("changeyour_mod_name_here7")
+    if character_data == nil then
+        return
+    end
+    character_data.icon = DCEI.Texture("character_reskin7")
+    character_data.icon_low_resolution = DCEI.Texture("character_reskin7")
+    character_data.icon_high_resolution = DCEI.Texture("character_reskin_high_res7")
+    character_data.icon_high_resolution_size = { width = 700, height = 700 }
+    character_data.unit = DCEI.Unit("COMBAT Unit Mod Reskin Character7")
+
+    Api:CreateCharacter("changeyour_mod_name_here8", "yaju")
+    local character_data = Api:GetCharacterData("changeyour_mod_name_here8")
+    if character_data == nil then
+        return
+    end
+    character_data.icon = DCEI.Texture("character_reskin8")
+    character_data.icon_low_resolution = DCEI.Texture("character_reskin8")
+    character_data.icon_high_resolution = DCEI.Texture("character_reskin_high_res8")
+    character_data.icon_high_resolution_size = { width = 700, height = 700 }
+    character_data.unit = DCEI.Unit("COMBAT Unit Mod Reskin Character8")
+
+    Api:CreateCharacter("changeyour_mod_name_here9", "zard")
+    local character_data = Api:GetCharacterData("changeyour_mod_name_here9")
+    if character_data == nil then
+        return
+    end
+    character_data.icon = DCEI.Texture("character_reskin9")
+    character_data.icon_low_resolution = DCEI.Texture("character_reskin9")
+    character_data.icon_high_resolution = DCEI.Texture("character_reskin_high_res9")
+    character_data.icon_high_resolution_size = { width = 700, height = 700 }
+    character_data.unit = DCEI.Unit("COMBAT Unit Mod Reskin Character9")
+
+    
+end
+
+MOD_MANAGER:AddMod(loader)

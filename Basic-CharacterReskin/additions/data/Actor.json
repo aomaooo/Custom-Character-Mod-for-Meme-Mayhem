@@ -1,0 +1,574 @@
+{
+    "actors": {
+        "COMBAT Unit Mod Reskin Character1": {
+            "parent": "COMBAT Unit Mod Template",
+            "unitActor": {
+                "resource": {
+                    "name": "character_reskin_high_res1"
+                },
+                "events": [
+                    {
+                        "actorTerm": {
+                            "onTimer": {
+                                "name": "DeathExplode"
+                            }
+                        },
+                        "actions": [
+                            {
+                                "create": {
+                                    "actor": "COMBAT Unit Mod Reskin Character1 Death Fx"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 0.4
+            }
+        },
+        "COMBAT Unit Mod Reskin Character1 Death Fx": {
+            "parent": "COMBAT Unit Mod Death Fx Template",
+            "modelActor": {
+                "events": [
+                    {
+                        "actorTerm": {
+                            "actorCreate": {}
+                        },
+                        "actions": [
+                            {
+                                "setParticleProperties": {
+                                    "particleProperties": [
+                                        {
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res1"
+                                            }
+                                        },
+                                        {
+                                            "particleSubSystem": 3,
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res1"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 1
+            }
+        },
+        "COMBAT Unit Mod Reskin Character2": {
+            "parent": "COMBAT Unit Mod Template",
+            "unitActor": {
+                "resource": {
+                    "name": "character_reskin_high_res2"
+                },
+                "events": [
+                    {
+                        "actorTerm": {
+                            "onTimer": {
+                                "name": "DeathExplode"
+                            }
+                        },
+                        "actions": [
+                            {
+                                "create": {
+                                    "actor": "COMBAT Unit Mod Reskin Character2 Death Fx"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 0.4
+            }
+        },
+        "COMBAT Unit Mod Reskin Character2 Death Fx": {
+            "parent": "COMBAT Unit Mod Death Fx Template",
+            "modelActor": {
+                "events": [
+                    {
+                        "actorTerm": {
+                            "actorCreate": {}
+                        },
+                        "actions": [
+                            {
+                                "setParticleProperties": {
+                                    "particleProperties": [
+                                        {
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res2"
+                                            }
+                                        },
+                                        {
+                                            "particleSubSystem": 3,
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res2"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 1
+            }
+        },
+        "COMBAT Unit Mod Reskin Character3": {
+            "parent": "COMBAT Unit Mod Template",
+            "unitActor": {
+                "resource": {
+                    "name": "character_reskin_high_res3"
+                },
+                "events": [
+                    {
+                        "actorTerm": {
+                            "onTimer": {
+                                "name": "DeathExplode"
+                            }
+                        },
+                        "actions": [
+                            {
+                                "create": {
+                                    "actor": "COMBAT Unit Mod Reskin Character3 Death Fx"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 0.4
+            }
+        },
+        "COMBAT Unit Mod Reskin Character3 Death Fx": {
+            "parent": "COMBAT Unit Mod Death Fx Template",
+            "modelActor": {
+                "events": [
+                    {
+                        "actorTerm": {
+                            "actorCreate": {}
+                        },
+                        "actions": [
+                            {
+                                "setParticleProperties": {
+                                    "particleProperties": [
+                                        {
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res3"
+                                            }
+                                        },
+                                        {
+                                            "particleSubSystem": 3,
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res3"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 1
+            }
+        },
+        "COMBAT Unit Mod Reskin Character4": {
+            "parent": "COMBAT Unit Mod Template",
+            "unitActor": {
+                "resource": {
+                    "name": "character_reskin_high_res4"
+                },
+                "events": [
+                    {
+                        "actorTerm": {
+                            "onTimer": {
+                                "name": "DeathExplode"
+                            }
+                        },
+                        "actions": [
+                            {
+                                "create": {
+                                    "actor": "COMBAT Unit Mod Reskin Character4 Death Fx"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 0.4
+            }
+        },
+        "COMBAT Unit Mod Reskin Character4 Death Fx": {
+            "parent": "COMBAT Unit Mod Death Fx Template",
+            "modelActor": {
+                "events": [
+                    {
+                        "actorTerm": {
+                            "actorCreate": {}
+                        },
+                        "actions": [
+                            {
+                                "setParticleProperties": {
+                                    "particleProperties": [
+                                        {
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res4"
+                                            }
+                                        },
+                                        {
+                                            "particleSubSystem": 3,
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 1
+            }
+        },
+        "COMBAT Unit Mod Reskin Character5": {
+            "parent": "COMBAT Unit Mod Template",
+            "unitActor": {
+                "resource": {
+                    "name": "character_reskin_high_res5"
+                },
+                "events": [
+                    {
+                        "actorTerm": {
+                            "onTimer": {
+                                "name": "DeathExplode"
+                            }
+                        },
+                        "actions": [
+                            {
+                                "create": {
+                                    "actor": "COMBAT Unit Mod Reskin Character5 Death Fx"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 0.4
+            }
+        },
+        "COMBAT Unit Mod Reskin Character5 Death Fx": {
+            "parent": "COMBAT Unit Mod Death Fx Template",
+            "modelActor": {
+                "events": [
+                    {
+                        "actorTerm": {
+                            "actorCreate": {}
+                        },
+                        "actions": [
+                            {
+                                "setParticleProperties": {
+                                    "particleProperties": [
+                                        {
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res5"
+                                            }
+                                        },
+                                        {
+                                            "particleSubSystem": 3,
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res5"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 1
+            }
+        },
+        "COMBAT Unit Mod Reskin Character6": {
+            "parent": "COMBAT Unit Mod Template",
+            "unitActor": {
+                "resource": {
+                    "name": "character_reskin_high_res6"
+                },
+                "events": [
+                    {
+                        "actorTerm": {
+                            "onTimer": {
+                                "name": "DeathExplode"
+                            }
+                        },
+                        "actions": [
+                            {
+                                "create": {
+                                    "actor": "COMBAT Unit Mod Reskin Character6 Death Fx"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 0.4
+            }
+        },
+        "COMBAT Unit Mod Reskin Character6 Death Fx": {
+            "parent": "COMBAT Unit Mod Death Fx Template",
+            "modelActor": {
+                "events": [
+                    {
+                        "actorTerm": {
+                            "actorCreate": {}
+                        },
+                        "actions": [
+                            {
+                                "setParticleProperties": {
+                                    "particleProperties": [
+                                        {
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res6"
+                                            }
+                                        },
+                                        {
+                                            "particleSubSystem": 3,
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res6"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 1
+            }
+        },
+        "COMBAT Unit Mod Reskin Character7": {
+            "parent": "COMBAT Unit Mod Template",
+            "unitActor": {
+                "resource": {
+                    "name": "character_reskin_high_res7"
+                },
+                "events": [
+                    {
+                        "actorTerm": {
+                            "onTimer": {
+                                "name": "DeathExplode"
+                            }
+                        },
+                        "actions": [
+                            {
+                                "create": {
+                                    "actor": "COMBAT Unit Mod Reskin Character7 Death Fx"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 0.4
+            }
+        },
+        "COMBAT Unit Mod Reskin Character7 Death Fx": {
+            "parent": "COMBAT Unit Mod Death Fx Template",
+            "modelActor": {
+                "events": [
+                    {
+                        "actorTerm": {
+                            "actorCreate": {}
+                        },
+                        "actions": [
+                            {
+                                "setParticleProperties": {
+                                    "particleProperties": [
+                                        {
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res7"
+                                            }
+                                        },
+                                        {
+                                            "particleSubSystem": 3,
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res7"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 1
+            }
+        },
+        "COMBAT Unit Mod Reskin Character8": {
+            "parent": "COMBAT Unit Mod Template",
+            "unitActor": {
+                "resource": {
+                    "name": "character_reskin_high_res8"
+                },
+                "events": [
+                    {
+                        "actorTerm": {
+                            "onTimer": {
+                                "name": "DeathExplode"
+                            }
+                        },
+                        "actions": [
+                            {
+                                "create": {
+                                    "actor": "COMBAT Unit Mod Reskin Character8 Death Fx"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 0.4
+            }
+        },
+        "COMBAT Unit Mod Reskin Character8 Death Fx": {
+            "parent": "COMBAT Unit Mod Death Fx Template",
+            "modelActor": {
+                "events": [
+                    {
+                        "actorTerm": {
+                            "actorCreate": {}
+                        },
+                        "actions": [
+                            {
+                                "setParticleProperties": {
+                                    "particleProperties": [
+                                        {
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res8"
+                                            }
+                                        },
+                                        {
+                                            "particleSubSystem": 3,
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res8"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 1
+            }
+        },
+        "COMBAT Unit Mod Reskin Character9": {
+            "parent": "COMBAT Unit Mod Template",
+            "unitActor": {
+                "resource": {
+                    "name": "character_reskin_high_res9"
+                },
+                "events": [
+                    {
+                        "actorTerm": {
+                            "onTimer": {
+                                "name": "DeathExplode"
+                            }
+                        },
+                        "actions": [
+                            {
+                                "create": {
+                                    "actor": "COMBAT Unit Mod Reskin Character9 Death Fx"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 0.4
+            }
+        },
+        "COMBAT Unit Mod Reskin Character9 Death Fx": {
+            "parent": "COMBAT Unit Mod Death Fx Template",
+            "modelActor": {
+                "events": [
+                    {
+                        "actorTerm": {
+                            "actorCreate": {}
+                        },
+                        "actions": [
+                            {
+                                "setParticleProperties": {
+                                    "particleProperties": [
+                                        {
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res9"
+                                            }
+                                        },
+                                        {
+                                            "particleSubSystem": 3,
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res9"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 1
+            }
+        },
+        "COMBAT Unit Mod Reskin Character10": {
+            "parent": "COMBAT Unit Mod Template",
+            "unitActor": {
+                "resource": {
+                    "name": "character_reskin_high_res10"
+                },
+                "events": [
+                    {
+                        "actorTerm": {
+                            "onTimer": {
+                                "name": "DeathExplode"
+                            }
+                        },
+                        "actions": [
+                            {
+                                "create": {
+                                    "actor": "COMBAT Unit Mod Reskin Character10 Death Fx"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 0.4
+            }
+        },
+        "COMBAT Unit Mod Reskin Character10 Death Fx": {
+            "parent": "COMBAT Unit Mod Death Fx Template",
+            "modelActor": {
+                "events": [
+                    {
+                        "actorTerm": {
+                            "actorCreate": {}
+                        },
+                        "actions": [
+                            {
+                                "setParticleProperties": {
+                                    "particleProperties": [
+                                        {
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res10"
+                                            }
+                                        },
+                                        {
+                                            "particleSubSystem": 3,
+                                            "setTexture": {
+                                                "spriteName": "character_reskin_high_res10"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "modelScale": 1
+            }
+        }
+    }
+}

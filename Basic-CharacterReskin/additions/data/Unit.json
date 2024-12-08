@@ -1,0 +1,44 @@
+{
+    "units": {
+        "COMBAT Unit Mod Reskin Character1":
+        {
+            "baseUnit": "_COMBAT Missile"
+        },
+        "COMBAT Unit Mod Reskin Character2":
+        {
+            "baseUnit": "_COMBAT Missile"
+        },
+        "COMBAT Unit Mod Reskin Character3":
+        {
+            "baseUnit": "_COMBAT Missile"
+        },
+        "COMBAT Unit Mod Reskin Character4":
+        {
+            "baseUnit": "_COMBAT Missile"
+        },
+        "COMBAT Unit Mod Reskin Character5":
+        {
+            "baseUnit": "_COMBAT Missile"
+        },
+        "COMBAT Unit Mod Reskin Character6":
+        {
+            "baseUnit": "_COMBAT Missile"
+        },
+        "COMBAT Unit Mod Reskin Character7":
+        {
+            "baseUnit": "_COMBAT Missile"
+        },
+        "COMBAT Unit Mod Reskin Character8":
+        {
+            "baseUnit": "_COMBAT Missile"
+        },
+        "COMBAT Unit Mod Reskin Character9":
+        {
+            "baseUnit": "_COMBAT Missile"
+        },
+        "COMBAT Unit Mod Reskin Character10":
+        {
+            "baseUnit": "_COMBAT Missile"
+        }
+    }
+}
